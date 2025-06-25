@@ -1,4 +1,4 @@
-// Replace these with your Firebase project settings
+// Replace   these with your Firebase project settingsgit remote add origin https://github.com/your-username/my-auth-project.git
  const firebaseConfig = {
     apiKey: "AIzaSyCFDI5prhNws20JIVdrs-O2EoDEFIexlGE",
     authDomain: "loginproject-62281.firebaseapp.com",
