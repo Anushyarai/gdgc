@@ -1,17 +1,41 @@
+
 body {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+  background:rgb(200, 240, 227);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("https://www.shutterstock.com/image-photo/abstract-blur-pastel-light-mix-260nw-328259468.jpg  ");
+  background-size: cover;
 }
+.header {
+  text-align: center;
+  margin-top: 40px;
+  color:rgb(235, 94, 66);
+}
+
+.header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.header .tagline {
+  font-size: 20px;
+  font-style: bold;
+  color: #555;
+}
+
 
 .container {
   background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 35px;
+  border: 3px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 30px auto;
 }
 
 input, button {
@@ -26,4 +50,35 @@ button {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+p {
+  text-align: start;
+}
+.header {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+.tagline{
+  font-family: 'Courier New', monospace;
+  font-size: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid black;
+  width: 0;
+  animation: typing 4s steps(34) forwards, blink 0.7s step-end infinite;
+  color: #333;
+}
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 36ch; } 
+}
+
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: black; }
 }
