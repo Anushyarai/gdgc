@@ -7,13 +7,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("https://www.shutterstock.com/image-photo/abstract-blur-pastel-light-mix-260nw-328259468.jpg  ");
-  background-size: cover;
 }
 .header {
   text-align: center;
   margin-top: 40px;
-  color:rgb(235, 94, 66);
+  color:rgb(193, 247, 17);
 }
 
 .header h1 {
@@ -24,7 +22,7 @@ body {
 .header .tagline {
   font-size: 20px;
   font-style: bold;
-  color: #555;
+  color:rgb(193, 247, 17);
 }
 
 
@@ -82,3 +80,21 @@ p {
   0%, 100% { border-color: transparent; }
   50% { border-color: black; }
 }
+.gradient-background {
+  background: linear-gradient(300deg, #80ced6,#d64161, #92a8d1);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
