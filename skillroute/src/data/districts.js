@@ -1,0 +1,31 @@
+export const districts = {
+  Assam: [
+    "Baksa",
+    "Barpeta",
+    "Biswanath",
+    "Bongaigaon",
+    "Cachar",
+    "Charaideo",
+    "Darrang",
+    "Dhemaji",
+    "Dhubri",
+    "Dibrugarh",
+    "Goalpara",
+    "Golaghat",
+    "Hailakandi",
+    "Jorhat",
+    "Kamrup",
+    "Kamrup Metro",
+    "Karbi Anglong",
+    "Karimganj",
+    "Kokrajhar",
+    "Lakhimpur",
+    "Majuli",
+    "Morigaon",
+    "Nagaon",
+    "Nalbari",
+    "Sivasagar",
+    "Sonitpur",
+    "Tinsukia"
+  ]
+};
